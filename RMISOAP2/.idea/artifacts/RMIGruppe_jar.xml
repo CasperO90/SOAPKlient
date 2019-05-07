@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RMIGruppe:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RMIGruppe_jar</output-path>
+    <root id="archive" name="RMIGruppe.jar">
+      <element id="module-output" name="DIST" />
+    </root>
+  </artifact>
+</component>
