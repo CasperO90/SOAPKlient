@@ -1,4 +1,4 @@
-package Klient;
+package SOAPFeedback;
 
 import DTO.FeedbackBatchDTO;
 import DTO.FeedbackDTO;
@@ -17,13 +17,14 @@ import java.util.Scanner;
 import java.util.concurrent.ExecutionException;
 
 
+
 public class Klient {
 
     public static void main(String[] arg) throws MalformedURLException, InterruptedException, ExecutionException, RemoteException, EnumCollectionMapException {
 
         URL url = new URL("http://localhost:1617/Feedback-backend");
         QName qname = new QName("http://firebase","ImplementeringService?"); //De rigtige parametre skal indsættes
-        Service service = Service.create(url, qname);
+        Provider.Service service = Provider.Service.create(url, qname);
 
         /*
 

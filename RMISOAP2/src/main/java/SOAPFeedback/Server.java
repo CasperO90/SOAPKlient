@@ -1,9 +1,8 @@
-package Server;
+package SOAPFeedback;
 
 
 import Firebase.IFirebaseFacilitator;
-import static javax.xml.ws.Endpoint.publish;
-import static javax.xml.Endpoint
+
 
 
 public class Server {
