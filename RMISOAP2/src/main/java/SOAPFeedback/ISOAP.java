@@ -4,4 +4,7 @@ import javax.jws.WebService;
 
 @Webservice
 public interface ISOAP {
+
+    //tilføjVirksomhed(virksomhedsid, navn);
+    //
 }
